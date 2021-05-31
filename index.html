@@ -1,44 +1,131 @@
-<!DOCTYPE HTML>
-  <html lang="pt-br">
-   <head>
-     <title>Registre-se gratuitamente e ofereça o seu serviço</title>
-     <link href="css/style.css" rel="stylesheet">
-   </head>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-   <body>
-       <header>
+<head>
+    <title>FAGOS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <header>
         <div class="container">
             <div class="Logo">
                 <img src="img\Logo.png" alt="Logo">
             </div>
+
         </div>
-       
-     </header>
+    </header>
+    <h1>Registre-se gratuitamente e ofereça o seu serviço</h1>
+    <nav>
+        <div class="menu">
+            <a>Siga-nos</a>
+            <div class="redes">
+                <ul>
+                    <li><a href=""><img src="img\Frame 2 (1).png"></a>
+                    </li>
+                    <li><a href=""><img src="img\Frame 3.png"></a>
+                    </li>
+                    <li><a href=""><img src="img\Frame 4.png"></a>
+                    </li>
+                    <li><a href=""><img src="img\Frame 5.png"></a>
+                    </li>
+                    <li><a href=""><img src="img\Frame 6.png"></a>
+                    </li>
 
-       <h1>Registre-se gratuitamente e ofereça o seu serviço</h1>
 
-       <form>
-         <fieldset class="grupo"> 
-           
-           <div class="campo">
-           <label for="especializacao"><strong>Especialização*</strong></label> 
-           <input id="especializacao" type:"text" required>
-           </div>  
+                </ul>
+            </div>
+        </div>
 
-           <div class="campo">  
-             <label for="nome"><strong>Nome*</strong></label> 
-             <input id="nome" type:"text" required>
+    </nav>
+    <form>
+        <fieldset class="Grupo">
+            <div class="campo">
+                <label for="Cidade"><strong>Cidade*</strong></label>
+                <select id="Cidade">
+                    <option selected disabled value="">Selecione</option>
+                    <option value="">Belo Horizonte</option>
+                    <option value="">Uberlândia</option>
+                    <option value="">Contagem</option>
+                    <option value="">Juiz de Fora</option>
+                    <option value=""> Betim</option>
+                    <option value="">Montes Claros</option>
+                    <option value="">Ribeirão das Neves</option>
+                    <option value="">Uberaba</option>
+                    <option value="">Governador Valadares</option>
+                    <option value="">Ipatinga</option>
+                    <option value="">Sete Lagoas</option>
+                    <option value="">Divinópolis</option>
+                    <option value="">Santa Luzia</option>
+                    <option value="">Ibirité</option>
+                    <option value="">Poços de Caldas</option>
+                    <option value="">Patos de Minas</option>
+                    <option value="">Pouso Alegre</option>
+                    <option value="">Teófilo Otoni</option>
+                    <option value=""> Barbacena</option>
+                    <option value=""> Sabará</option>
+                    <option value="">Varginha</option>
+                    <option value="">Vespasiano</option>
+                    <option value="">Conselheiro Lafaiete</option>
+                    <option value=""> Itabira</option>
+                    <option value="">Araguari</option>
+                    <option value=""> Ubá</option>
+                    <option value="">Passos</option>
 
-             <label for="sobrenome"><strong>Sobrenome*</strong></label>
-             <input id="sobrenome" type="text" required>
-           </div>  
-         
-           <div class="botao">
-             <button id="botaoEnviar">Próximo Passo</button>
-           </div>
+                </select>
 
-         </fieldset>  
+            </div>
 
-       </form>
-   </body>
-  </html>
+        </fieldset >
+        <fieldset class="Grupo">
+            <div class="campo">
+                <label for="email" ><strong>Email*</strong></label>
+                <input type="email" id="email" required>
+
+            </div>
+            <div class="campo">
+                <label for="Senha"><strong>Crie uma senha*</strong></label>
+                <input type="password" id="Senha" required>
+            </div>
+            <div class="campo">
+                <label for="Telefone"><strong>Telefone*</strong></label>
+                <input type="tel" id="Telefone" required>
+
+            </div>
+            <div class="campo">
+                <label for="CPF"><strong>Número de registro (ex. CRM, CRP, CRO) *</strong></label>
+                <input type="text" id=CPF required>
+            </div>
+        </fieldset>
+        <fieldset class="Grupo">
+            <div class="campo">
+
+                <input type="checkbox" id="termo1" name="termo1" value="Sim1" required>
+                <label for="termo1">Eu aceito os termos e condições, e confirmo que li e entendi a política de
+                    privacidade.*</label>
+
+            </div>
+            <div class="campo">
+                <input type="checkbox" id="termo2" name="termo2" value="Sim2" required>
+                <label for="termo2" id="termo2">Declaro estar ciente das normas profissionais que devo seguir e da
+                    necessidade de inclusão d(o)s número de registro profissional e de especialidade. *</label>
+            </div>
+
+
+
+
+        </fieldset>
+        <button type="submit" class="botao">Registrar-se Gratuidamente</button>
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>

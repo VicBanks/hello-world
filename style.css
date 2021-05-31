@@ -1,4 +1,4 @@
-*{
+body,ul,li,p{
     margin: 0px;
     padding: 0px;
     list-style:none ;
@@ -14,21 +14,39 @@ h1{text-align: center;}
     align-items: center;
 
 }
+.redes ul li {display:inline-flex ;}
+.menu{background-color: #C4C4C4;
+    display: flex;
+     padding: 10px;}     
+
+
+.campo{margin-bottom: 1em;}
+
+.campo label{margin-bottom: 0.2em;
+display: block;}
+
+fieldset .grupo .campo{float: left;
+margin-right:1em ;}
 .botao{font-size:25px ;
   ;
   border-radius: 4px;
   padding: 12px 18px;
-  height: 50px;
-  width:300px ;
+  height: 100px;
+  width:360px ;
 }
 .botao:hover{
   background-color: chartreuse;
  
 }
+#email{font-size: 20px;}
+#senha{font-size: 20px;}
 input[type=text] {
-  height: 19px;
-  width: 290px;
+  height: 20px;
+  width: 200px;
   }
+
+.campo{font-size: 20px;}  
+#cidade{font-size: 20px;}
 form{
   display:block;
   text-align: center;
