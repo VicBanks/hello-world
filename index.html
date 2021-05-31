@@ -1,65 +1,44 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE HTML>
+  <html lang="pt-br">
+   <head>
+     <title>Registre-se gratuitamente e ofereça o seu serviço</title>
+     <link href="css/style.css" rel="stylesheet">
+   </head>
 
-<head>
-    <title>Saude  Senior</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-</head>
-
-<body>
-    <header>
+   <body>
+       <header>
         <div class="container">
             <div class="Logo">
                 <img src="img\Logo.png" alt="Logo">
             </div>
-
         </div>
-    </header>
-    <main class="seg">
-        <div class="segura">
-            <h1>Crie uma conta</h1>
-            <br>
-            <form action="" class="meio">
-                <input type="text" name="login" id="login" placeholder="Digite seu e-mail*">
-                <div class="linhadebaixo"></div>
-                <input type="password" name="senha" id="senha" placeholder="Digite sua senha*">
-                <div class="linhadebaixo"></div>
-                <br>
-            
-                <input type="submit" value="Continue" class="botao">
-            <div class="rodape">
-                <br>
-                <h1>Ou</h1>
-                <br>
-                <div class="redes">
-                    <div class="Google">
-                        <a href="#">
+       
+     </header>
 
-                            <img src="img/google.png">
-                            Entrar com Google
+       <h1>Registre-se gratuitamente e ofereça o seu serviço</h1>
 
-                        </a>
-                        <br>
-                    </div>
-                    <div class="facebook">
-                        <a href="#">
+       <form>
+         <fieldset class="grupo"> 
+           
+           <div class="campo">
+           <label for="especializacao"><strong>Especialização*</strong></label> 
+           <input id="especializacao" type:"text" required>
+           </div>  
 
-                            <img src="img/facebook (1).png">
-                            Entrar com Facebook
+           <div class="campo">  
+             <label for="nome"><strong>Nome*</strong></label> 
+             <input id="nome" type:"text" required>
 
-                        </a>
+             <label for="sobrenome"><strong>Sobrenome*</strong></label>
+             <input id="sobrenome" type="text" required>
+           </div>  
+         
+           <div class="botao">
+             <button id="botaoEnviar">Próximo Passo</button>
+           </div>
 
-                    </div>
+         </fieldset>  
 
-                </div>
-            </div>
-        </form>
-        </div>
-
-
-
-
-        </div>
-    </main>
+       </form>
+   </body>
+  </html>
